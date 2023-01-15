@@ -5,3 +5,4 @@
 3. Change includes in mainlib.cpp to "/home/<your account>/testGenerator/lib/<file to include>"
 4. Change fstream fin in testgen.cpp to "/home/<your account>/testGenerator/template.cpp"
 5. Compile testgen.cpp then put the binary file in "/home/bin" or "/home/sbin"
+6. When code maketest() file, please do not use main() and please use fstream fout("input.inp", fstream::in);
