@@ -1,0 +1,7 @@
+--- From Sheyer/h1a4c3k with love :3 ---
+
+1. Put mainlib.cpp, lib/ and template.cpp in /home/<your account>/testGenerator/
+2. You can add more functions to mainlib.cpp and lib/
+3. Change includes in mainlib.cpp to "/home/<your account>/testGenerator/lib/<file to include>"
+4. Change fstream fin in testgen.cpp to "/home/<your account>/testGenerator/template.cpp"
+5. Compile testgen.cpp then put the binary file in "/home/bin" or "/home/sbin"
